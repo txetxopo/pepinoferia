@@ -1,0 +1,67 @@
+<!--
+AUTOR: JOSETXO ALZUGARAY
+ASIGNATURA: LMSGI
+UNIDAD: UD2
+-->
+<!-- TIPO DE DOCUMENTO (HTML 5.0) E IDIOMA(ESPAÑOL) -->
+<!DOCTYPE html>
+<html lang="es">
+    <!-- DESCRIPCION DEL DOCUMENTO -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="formulario">
+        <meta name="keywords" content="HTLM5">
+        <title>CONTACTE CON NOSOTROS</title>
+    </head>
+    <!-- CUERPO DEL DOCUMENTO-->
+    <body>
+        <!-- CABECERA DOCUMENTO -->
+        <header>
+            <h2>FORMULARIO DEL DOCUMENTO</h2>
+        </header>
+        <!-- MENU DE NAVEGACION DEL SITIO WEB-->
+        <nav>
+            <!-- LISTA ORDENADA POR NUMEROS CON LOS ENLACES -->
+            <ol>
+                <li><a href="index.html">PRINCIPAL</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="feriasnoviembre.html">FERIAS NOVIEMBRE</a></li>
+                <li><a href="feriasdiciembre.html">FERIAS DICIEMBRE</a></li>
+                <li><a href="formulario.html">CONTACTO</a></li>
+            </ol>
+        </nav>
+        <!-- FORMULARIO CON ENVIO DE CORREO METHOD="GET"-->
+        <form action="mailto:josetxoalzugaray@gmail.com" method="get">
+            <fieldset>
+                <!-- TITULO FORMULARIO -->
+                <legend>CONTACTO</legend>
+                <!-- TABLA DE FORMULARIO -->
+                <table>
+                    <!-- CELDA PARA NOMBRE-->
+                    <b>Nombre:</b>
+                    <input type="text" name="fname">
+                    <!-- CELDA PARA APELLIDO-->
+                    <b>Apellido</b>
+                    <input type="text" name="lname">
+                    <!-- CELDA PARA TEMA DESPLEGABLE-->
+                    <b>Tema</b>
+                    <select>
+                        <option value="agricultura">AGRICULTURA</option>
+                        <option value="ganaderia">GANADERIA</option>
+                        <option value="feria">FERIAS</option>
+                    </select>
+                    <br>
+                    <!-- CELDA PARA ESCRIBIR COMENTARIO -->
+                    <textarea name="emilio">
+                        ¿DE QUE DESEA MAS INFORMACION?
+                    </textarea>
+                </table>
+                <!-- IMAGEN -->
+                <img src="./imagenes/formulario.jpg" alt="¿¿??">
+                <p>(fuente:wikipedia)</p>
+                <!-- BOTON DE ENVIAR-->
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
